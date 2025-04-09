@@ -1,0 +1,114 @@
+html, body 
+{margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #9d6941;
+margin-left:5px;
+}
+h3, p, div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left:5px
+
+}
+
+footer{
+    background-color: #c0a273;
+margin: 0%;
+padding: 0%;
+height: 100%;
+
+}
+
+html{ background-color: whitesmoke;}
+img{width: 20%;
+border: #C0A273, solid, 3px;
+margin-bottom: 2%;
+}
+h3{
+    color: #C0A273;
+}
+
+nav{
+ 
+    display: flex;
+    justify-content: space-between;
+    background-color: #c0a273;
+    color: #9d6941;
+    align-items: center;
+   padding: 10px 20px;
+   height: 50px;
+}
+
+.navegação{
+    font-size: 24px;
+    color: #9d6941;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-links-desktop{
+
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+    .nav-links-desktop li {
+        padding: 0 15px;
+    }
+     a{ color:#9d6941;
+    text-decoration: none;
+transition: 0.3s;}
+
+a:hover{
+    color: #000;
+}
+
+.educação{
+    border-top: #9d6941 solid 1px;}
+
+ .habilidades-tecnicas{
+    border-bottom: #9d6941 solid 1px;
+   padding-bottom: 1%;   }
+
+
+    #id{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Texto-de-objetivos{
+        margin: 1px;
+        justify-content: left;
+        width: 50%;
+    }
+    .cidade{
+        margin-top: 5px;
+    }
+
+
+    #informações-pessoais{
+        margin-left:5px
+     }
+
+    @media screen and (max-width: 768px){
+   nav{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    
+   }
+   .Texto-de-objetivos{
+    height: 25%;
+    width: 70%;
+  
+   }
+ #informações-pessoais{
+    margin-left:5px
+ }
+ .educação{flex-direction: column;}
+   
+    }
